@@ -3,7 +3,7 @@ i=2
 
 n=int (input('Enter a number to check prime: '))
 
-while i<n/2:
+while i<=n/2:
     if n%i==0:
         flag=0
     
